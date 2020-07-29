@@ -1,0 +1,62 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.banner h1{
+font-size: 27px;
+}
+.about h1,.client h1{
+font-size: 38px;
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+#talkbubble:before,#talkbubble2:before{
+content: "";
+position: absolute;
+right: 0;
+left: 0;
+top: 0;
+bottom: 0;
+width: 0;
+height: 0;
+border-top: 0;
+border-right: 0;
+border-bottom: 0;
+border-left: 0;
+}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+header ul li a{
+font-size: 18px;
+}
+.banner h5{
+font-size: 32px;
+}
+.banner h1{
+font-size: 66px;
+}
+.banner button{
+font-size: 23px;
+}
+.about h1,.client h1{
+font-size: 60px;
+}
+.about p,.service p,.subtitle{
+font-size: 18px;
+}
+.service h5{
+font-size: 22px;
+}
+.quote{
+font-size: 26px;
+}
+.clientname{
+font-size: 20px;
+}
+}
