@@ -17,6 +17,22 @@
 body{
 	font-family: BrandonGrotesque-Regular;
 }
+/*commons*/
+.fontfamlight{
+	font-family: BrandonGrotesque-Light;
+	font-weight: 300;
+}
+.fontfambold{
+	font-family: BrandonGrotesque-Bold;
+	font-weight: 700;
+}
+.fontfammed{
+	font-family: BrandonGrotesque-Medium;
+	font-weight: 500;
+}
+.p100{
+	padding: 100px 0;
+}
 /*header start*/
 header{
 	padding: 20px 0 100px;
@@ -26,39 +42,17 @@ header{
 	background-position: center;
 }
 header ul li a{
-	font-family: BrandonGrotesque-Medium; 
+	font-family: BrandonGrotesque-Medium;
+	font-weight: 500; 
 }
 .banner{
 	margin-top: 150px;
-}
-.banner h5{
-	font-family: BrandonGrotesque-Light;
-}
-.banner h1{
-	font-family: BrandonGrotesque-Bold;
-}
-.banner button{
-	font-family: BrandonGrotesque-Bold;
 }
 .banner button:hover{
 	background: #fff;
 	color: #777777;
 }
 /*header end*/
-/*about start*/
-.about h1{
-	font-family: BrandonGrotesque-Light;
-}
-.about h1 span{
-	font-family: BrandonGrotesque-Bold;
-}
-/*about end*/
-/*service start*/
-.service h5{
-	font-family: BrandonGrotesque-Medium;
-	font-weight: 500;
-}
-/*service end*/
 /*client start*/
 #talkbubble,#talkbubble2{
     background: #fff;
@@ -90,3 +84,29 @@ header ul li a{
     border-bottom: 13px solid transparent;
 }
 /*client end*/
+/*team start*/
+.team img{
+	border: 3px solid #fff;
+}
+.social_icon i{
+	border: 3px solid #fff;
+	color: #fff;
+}
+.social_icon i:hover{
+	background: #fff;
+    	color: #111111;
+}
+.team_footer{
+	color: #ebebeb;
+}
+/*team end*/
+/*contact start*/
+.contact{
+	background: #7690c5;
+	color: #fff;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	background: #7690c5;
+}
